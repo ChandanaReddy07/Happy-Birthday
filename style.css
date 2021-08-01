@@ -1,0 +1,142 @@
+#confetti {
+  
+  background: radial-gradient(circle at center, rgb(240, 51, 98) 0%, #090a0f 100%);
+  height: 100%;
+  color: antiquewhite;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: -1;
+}
+.star{
+  width: 50px;
+}
+.container {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+.mySlides {
+  /* width: 30%; */
+  height: 500px;
+  border-radius: 1%;
+  background-size: cover;
+  border: 1px solid rgb(248, 78, 248);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.paraa {
+  width: 40%;
+  height: 500px;
+  background: radial-gradient(circle at center, #1b2735 0%, #090a0f 100%);
+
+  margin-left: 80px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.cake {
+  padding-left: 50px;
+  width: 200px;
+  height: 200px;
+}
+.mom {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Fredoka One', cursive;
+  color: #fff;
+  text-shadow: 0 0 30px #fff, 0 0 70px #fff, 0 0 50px #fff;
+}
+
+.balloon-border {
+  opacity: 1;
+  z-index: 10;
+  animation: drop 10s ease forwards;
+  animation-iteration-count: infinite;
+}
+.wrapper {
+  height: 10vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.typing-demo h2 {
+  animation: 4s typing-erase 4s steps(50, end) infinite,
+  blink-caret 0.2s step-end infinite;
+  /* animation: typing 2s steps(22), blink .5s step-end infinite alternate; */
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 1em;
+}
+.images_list{
+  width:50%;
+  text-align: center;
+  margin: auto;
+ 
+}
+.song {
+  display: none;
+}
+
+
+/* The type and erase effect */
+@keyframes typing-erase {
+  0% {
+    width: 0;
+  }
+  80% {
+    width: 100%;
+  }
+  90%,
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: gray;
+  }
+}
+
+@keyframes drop {
+  100% {
+    transform: translateY(-600px);
+  }
+}
+.blink {
+  animation: blink 0.5s infinite;
+}
+@keyframes blink{
+  to { opacity: .0; }
+}
+.flex {
+	display: flex;
+}
+.header-sub-title {
+  color: #fff;
+  font-family: 'Shadows Into Light', cursive;
+  font-size:25px ;
+  padding: 0.1em;
+}
+
+p {
+	color: #fff;
+	font-family: 'Shadows Into Light', cursive;
+	text-decoration: none;
+  font-size:25px ;
+}

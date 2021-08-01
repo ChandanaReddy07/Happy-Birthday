@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="images_list" >
+        <img class="mySlides" src="./images/img1.jpeg" style="width: 100%" />
+        <img class="mySlides" src="./images/img2.jpeg" style="width: 100%" />
+        <img class="mySlides" src="./images/img3.jpeg" style="width: 100%" />
+        <img class="mySlides" src="./images/img4.jpeg" style="width: 100%" />
+        <img class="mySlides" src="./images/img5.jpeg" style="width: 100%" />
+        <img class="mySlides" src="./images/img6.jpeg" style="width: 100%" />
+        <img class="mySlides" src="./images/img7.jpeg" style="width: 100%" />
+        <img class="mySlides" src="./images/img9.jpeg" style="width: 100%" />
+        <img class="mySlides" src="./images/img8.jpeg" style="width: 100%" />
+        <img class="mySlides" src="./images/img10.jpeg" style="width: 100%" />
+        <img class="mySlides" src="./images/img11.jpeg" style="width: 100%" />
+        <img class="mySlides" src="./images/img12.jpeg" style="width: 100%" />
+        <img class="mySlides" src="./images/img13.jpeg" style="width: 100%" />
+        <img class="mySlides" src="./images/img14.jpeg" style="width: 100%" />
+        <img class="mySlides" src="./images/img15.jpeg" style="width: 100%" />
+        <img class="mySlides" src="./images/img16.jpeg" style="width: 100%" />
+      </div>
+      <audio class="song" controls autoplay loop>
+        <source src="./music.mp3">
+        </source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+  
+      <div class="paraa">
+        <img src="./images/banner.png" width="500px" height="200px" alt="" />
+        
+          <div class="mom">MOM</div>
+        <div>
+          <div class="flex">
+            <p class="header-sub-title" id="word"></p><p class="header-sub-title blink">|</p>
+          </div>
+          </div>
+              <img class="cake" src="./images/cake.gif" alt="">
+            <span id="typed" style="white-space: pre"></span>
+            <img
+            src="./images/Balloon-Border.png"
+            width="550px"
+            class="balloon-border"
+          />
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+          myIndex = 1;
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+    </script>
+    <div id="confetti"></div>
+    <script type="text/javascript" src="./jquery.js"></script>
+    <script src="./heloo.js"></script>
+    <script src="./typed.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="./typing.js"></script>
+  </body>
+</html>
