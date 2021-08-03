@@ -14,23 +14,21 @@
 }
 .container {
   display: flex;
-  width: 90%;
+  width: 100%;
+  justify-content: center;
   height: 100%;
   margin: auto;
 }
 @media (max-width: 800px) {
   .container{
     flex-direction: column;
+  
+    margin: auto;
   }
-  .paraa{
-    width:100%;
-  }
-  .mySlides{
-    width:100%;
-  }
+  
 }
 .mySlides {
-  /* width: 30%; */
+  width: 500px;
   height: 500px;
   border-radius: 1%;
   background-size: cover;
@@ -41,10 +39,12 @@
  
 }
 .paraa {
-  /* width: 40%; */
+  width: 400px;
   height:500px;
   margin:auto;
   margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
   background: radial-gradient(circle at center, #1b2735 0%, #090a0f 100%);
   /* margin-left: 80px; */
   padding-top: 50px;
@@ -92,7 +92,7 @@
   font-size: 1em;
 }
 .images_list{
-  /* width:40%; */
+  width:500px;
   text-align: center;
   margin: auto;
  
