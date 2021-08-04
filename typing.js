@@ -1,4 +1,4 @@
-const words = ["Every time I do something right,...", "I remember that it was you...", "There are no words with which I can tell u...","thanku..mom..","and so ur the best MOM in the whole world...!!","my Omni...","Happy Birthday Amma...!!!"];
+const words = ["Every time I do something right,...", "I remember that it was you...", "There are no words.."," with which I can tell u...","thanku..mom..","and so ur the best MOM in the whole world...!!","my Omni...","Happy Birthday Amma...!!!"];
 let i = 0;
 let timer;
 
